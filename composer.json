@@ -1,17 +1,17 @@
 {
-    "name": ":vendor_slug/:package_slug",
-    "description": ":package_description",
+    "name": "adityafullstackdeveloper/laravel-bill4time",
+    "description": "This is package for bill4time api integration",
     "keywords": [
-        ":vendor_name",
+        "adityafullstackdeveloper",
         "laravel",
-        ":package_slug"
+        "laravel-bill4time"
     ],
-    "homepage": "https://github.com/:vendor_slug/:package_slug",
+    "homepage": "https://github.com/adityafullstackdeveloper/laravel-bill4time",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": "Aditya Kumar",
+            "email": "contact@adityadev.in",
             "role": "Developer"
         }
     ],
@@ -35,13 +35,12 @@
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src/",
-            "VendorName\\Skeleton\\Database\\Factories\\": "database/factories/"
+            "Adityafullstackdeveloper\\LaravelBill4time\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests/"
+            "Adityafullstackdeveloper\\LaravelBill4time\\Tests\\": "tests/"
         }
     },
     "scripts": {
@@ -61,10 +60,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "VendorName\\Skeleton\\SkeletonServiceProvider"
+                "Adityafullstackdeveloper\\LaravelBill4time\\LaravelBill4timeServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "VendorName\\Skeleton\\Facades\\Skeleton"
+                "LaravelBill4time": "Adityafullstackdeveloper\\LaravelBill4time\\Facades\\LaravelBill4time"
             }
         }
     },
