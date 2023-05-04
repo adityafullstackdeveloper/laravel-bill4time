@@ -3,7 +3,6 @@
 namespace Adityafullstackdeveloper\LaravelBill4time\Tests;
 
 use Adityafullstackdeveloper\LaravelBill4time\LaravelBill4timeServiceProvider;
-use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
 
 class TestCase extends Orchestra
