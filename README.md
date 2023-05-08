@@ -1,9 +1,9 @@
 # This is package for bill4time api integration
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/adityafullstackdeveloper/laravel-bill4time.svg?style=flat-square)](https://packagist.org/packages/adityafullstackdeveloper/laravel-bill4time)
-[![GitHub Tests Action Status](https://img.shields.io/github/actions/workflow/status/adityafullstackdeveloper/laravel-bill4time/run-tests.yml?branch=main&label=tests&style=flat-square)](https://github.com/adityafullstackdeveloper/laravel-bill4time/actions?query=workflow%3Arun-tests+branch%3Amain)
-[![GitHub Code Style Action Status](https://img.shields.io/github/actions/workflow/status/adityafullstackdeveloper/laravel-bill4time/fix-php-code-style-issues.yml?branch=main&label=code%20style&style=flat-square)](https://github.com/adityafullstackdeveloper/laravel-bill4time/actions?query=workflow%3A"Fix+PHP+code+style+issues"+branch%3Amain)
-[![Total Downloads](https://img.shields.io/packagist/dt/adityafullstackdeveloper/laravel-bill4time.svg?style=flat-square)](https://packagist.org/packages/adityafullstackdeveloper/laravel-bill4time)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/adityakdevin/laravel-bill4time.svg?style=flat-square)](https://packagist.org/packages/adityakdevin/laravel-bill4time)
+[![GitHub Tests Action Status](https://img.shields.io/github/actions/workflow/status/adityakdevin/laravel-bill4time/run-tests.yml?branch=main&label=tests&style=flat-square)](https://github.com/adityakdevin/laravel-bill4time/actions?query=workflow%3Arun-tests+branch%3Amain)
+[![GitHub Code Style Action Status](https://img.shields.io/github/actions/workflow/status/adityakdevin/laravel-bill4time/fix-php-code-style-issues.yml?branch=main&label=code%20style&style=flat-square)](https://github.com/adityakdevin/laravel-bill4time/actions?query=workflow%3A"Fix+PHP+code+style+issues"+branch%3Amain)
+[![Total Downloads](https://img.shields.io/packagist/dt/adityakdevin/laravel-bill4time.svg?style=flat-square)](https://packagist.org/packages/adityakdevin/laravel-bill4time)
 
 This is where your description should go. Limit it to a paragraph or two. Consider adding a small example.
 
@@ -20,7 +20,7 @@ We highly appreciate you sending us a postcard from your hometown, mentioning wh
 You can install the package via composer:
 
 ```bash
-composer require adityafullstackdeveloper/laravel-bill4time
+composer require adityakdevin/laravel-bill4time
 ```
 
 You can publish and run the migrations with:
@@ -53,8 +53,8 @@ php artisan vendor:publish --tag="laravel-bill4time-views"
 ## Usage
 
 ```php
-$laravelBill4time = new Adityafullstackdeveloper\LaravelBill4time();
-echo $laravelBill4time->echoPhrase('Hello, Adityafullstackdeveloper!');
+$laravelBill4time = new Adityakdevin\LaravelBill4time();
+echo $laravelBill4time->echoPhrase('Hello, adityakdevin!');
 ```
 
 ## Testing
@@ -77,7 +77,7 @@ Please review [our security policy](../../security/policy) on how to report secu
 
 ## Credits
 
-- [Aditya Kumar](https://github.com/adityafullstackdeveloper)
+- [Aditya Kumar](https://github.com/adityakdevin)
 - [All Contributors](../../contributors)
 
 ## License

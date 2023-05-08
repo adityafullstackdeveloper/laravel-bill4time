@@ -1,8 +1,8 @@
 <?php
 
-namespace Adityafullstackdeveloper\LaravelBill4time\Tests;
+namespace Adityakdevin\LaravelBill4time\Tests;
 
-use Adityafullstackdeveloper\LaravelBill4time\LaravelBill4timeServiceProvider;
+use Adityakdevin\LaravelBill4time\LaravelBill4timeServiceProvider;
 use Orchestra\Testbench\TestCase as Orchestra;
 
 class TestCase extends Orchestra

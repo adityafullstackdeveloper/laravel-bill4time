@@ -1,6 +1,6 @@
 <?php
 
-namespace Adityafullstackdeveloper\LaravelBill4time;
+namespace Adityakdevin\LaravelBill4time;
 
 class LaravelBill4time
 {
